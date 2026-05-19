@@ -10,10 +10,13 @@ public class CountNoOfIntFromString {
 		
 		for (int i = 0; i < name.length(); i++) {
 			
+			//print digits
 			if (Character.isDigit(name.charAt(i))) {
 				count++;
+				System.out.println("digit = "+count);
 			}
 		}
-		System.out.println(count);
+		//print total digits
+		System.out.println("total digit = "+count);
 	}
 }

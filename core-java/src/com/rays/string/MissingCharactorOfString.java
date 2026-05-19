@@ -1,6 +1,6 @@
 package com.rays.string;
 
-public class CountOccuranceOfString {
+public class MissingCharactorOfString {
 
 	public static void main(String[] args) {
 
@@ -16,10 +16,10 @@ public class CountOccuranceOfString {
 					count++;
 				}
 			}
-			if (count != 0) {
-				System.out.println(ch + "=" + count);
-				count = 0;
+			if (count == 0) {
+				System.out.print(ch + ",");
 			}
+			count = 0;
 		}
 	}
 }

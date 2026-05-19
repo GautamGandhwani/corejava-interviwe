@@ -9,6 +9,7 @@ public class Anagram {
 		String s1 = "jar";
 		String s2 = "raj";
 
+//		with sort method
 		char[] ar1 = s1.toCharArray();
 		char[] ar2 = s2.toCharArray();
 
@@ -20,5 +21,12 @@ public class Anagram {
 		} else {
 			System.out.println(s1 + " " + s2 + " = is not anagram");
 		}
+		
+//		without sort method
+//		if (s1.length()==s2.length()) {
+//			System.out.println(s1 + " " + s2 + " = is anagram");
+//		}else {
+//			System.out.println(s1 + " " + s2 + " = is not anagram");
+//		}
 	}
 }

@@ -4,7 +4,7 @@ public class Vowels {
 
 	public static void main(String[] args) {
 
-		String name = "google";
+		String name = "gautam";
 		int count = 0;
 
 		for (int i = 0; i < name.length(); i++) {
