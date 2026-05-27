@@ -6,10 +6,8 @@ public class CountOccuranceOfString {
 
 		String name = "gautam gandhwani";
 
-		int count = 0;
-
 		for (char ch = 'a'; ch <= 'z'; ch++) {
-
+			int count = 0;
 			for (int i = 0; i < name.length(); i++) {
 
 				if (ch == name.charAt(i)) {
@@ -18,7 +16,6 @@ public class CountOccuranceOfString {
 			}
 			if (count != 0) {
 				System.out.println(ch + "=" + count);
-				count = 0;
 			}
 		}
 	}

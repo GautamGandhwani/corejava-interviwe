@@ -6,9 +6,8 @@ public class MissingCharactorOfString {
 
 		String name = "gautam gandhwani";
 
-		int count = 0;
-
 		for (char ch = 'a'; ch <= 'z'; ch++) {
+			int count = 0;
 
 			for (int i = 0; i < name.length(); i++) {
 
@@ -17,9 +16,9 @@ public class MissingCharactorOfString {
 				}
 			}
 			if (count == 0) {
-				System.out.print(ch + ",");
+				System.out.print(ch + " ");
 			}
-			count = 0;
+			
 		}
 	}
 }

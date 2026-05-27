@@ -56,16 +56,5 @@ public class StringAllMethods {
 		}
 
 		System.out.println(".........................");
-
-		String s2 = "SUNRAYS";
-		String s3 = "SUNRAYS";
-
-		String s4 = new String("SUNRAYS");
-		String s5 = new String("SUNRAYS");
-
-		boolean b = (s2 == s3);
-		System.out.println(b);
-		boolean p = s2.equals(s3);
-		System.out.println(p);
 	}
 }

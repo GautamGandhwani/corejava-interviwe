@@ -13,6 +13,7 @@ public class Vowels {
 
 			if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
 				count++;
+//				System.out.println("C = "+ c);
 			}
 		}
 		System.out.println("count = " + count);
