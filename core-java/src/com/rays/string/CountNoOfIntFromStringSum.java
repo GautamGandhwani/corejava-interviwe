@@ -6,14 +6,12 @@ public class CountNoOfIntFromStringSum {
 
 		String name = "Gautam123456789";
 
-		int count = 0;
 		int sum = 0;
-
+		int count = 0;
 		for (int i = 0; i < name.length(); i++) {
-			char ch = name.charAt(i);
-			if (Character.isDigit(ch)) {
+			if (Character.isDigit(name.charAt(i))) {
 				count++;
-				int num = Character.getNumericValue(ch);
+				int num = Character.getNumericValue(name.charAt(i));
 				sum = sum + num;
 			}
 		}
