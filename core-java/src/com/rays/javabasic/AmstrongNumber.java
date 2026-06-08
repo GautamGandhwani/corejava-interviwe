@@ -1,25 +1,23 @@
 package com.rays.javabasic;
 
-public class Palindrome {
+public class AmstrongNumber {
 
 	public static void main(String[] args) {
 
-		int num = 151;
+		int num = 153;
 		int num2 = num;
 		int r = 0;
 		int temp = 0;
 
 		while (num2 != 0) {
 			r = num2 % 10;
-			temp = temp * 10 + r;
+			temp = temp + r * r * r;
 			num2 = num2 / 10;
 		}
 		if (temp == num) {
-
-			System.out.println("Is Palindrome.");
-
+			System.out.println("Is Amstrong");
 		} else {
-			System.out.println("Is not Palindrome.");
+			System.out.println("Is not Amstrong");
 		}
 	}
 }
