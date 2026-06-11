@@ -3,19 +3,22 @@ package com.rays.javabasic;
 public class SecondHighestNumber {
 
 	public static void main(String[] args) {
+
+		int[] num = { 100, 23, 34, 45, 56, 67, 69 };
+		int highest = 0;
+		int secondHighest = 0;
 		
-		int[] num = {23,34,45,56,67,66};
-		int count = 0;
-		int temp = 0;
 		for (int i = 0; i < num.length; i++) {
-			if (temp<num[i]) {
-				count=temp;
-				temp=num[i];
+			
+			if (num[i] > highest) {
+				secondHighest = highest;
+				highest = num[i];
 			}
-			if (count<num[i]&& temp<num[i]) {
-				count=num[i];
+			
+			if (secondHighest < num[i] && highest != num[i]) {
+				secondHighest = num[i];
 			}
 		}
-		System.out.println(count);
+		System.out.println(secondHighest);
 	}
 }
