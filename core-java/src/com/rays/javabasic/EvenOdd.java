@@ -7,7 +7,7 @@ public class EvenOdd {
 		int i = 20;
 
 		if (i % 2 == 0) {
-			System.out.println("Is even");
+			System.out.println("Is Even");
 		} else {
 			System.out.println("Is Odd");
 		}
