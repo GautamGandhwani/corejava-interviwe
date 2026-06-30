@@ -4,13 +4,13 @@ public class TestOverride {
 
 	public static void main(String[] args) {
 
-		Parent p = new Parent();
-		p.home();
+		BaseCtl b = new BaseCtl();
+		b.display();
 
-		Child c = new Child();
-		c.home();
+		UserCtl u = new UserCtl();
+		u.display();
 
-		Parent pc = new Child();
-		pc.home();
+		BaseCtl bu = new UserCtl();
+		bu.display();
 	}
 }

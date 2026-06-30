@@ -6,9 +6,9 @@ public class ConstructorCalling {
 
 //	public String lName;
 
-	public ConstructorCalling() {
-		System.out.println("Default Constructor.........");
-	}
+//	public ConstructorCalling() {
+//		System.out.println("Default Constructor.........");
+//	}
 
 	public ConstructorCalling(String fName) {
 //		this();
