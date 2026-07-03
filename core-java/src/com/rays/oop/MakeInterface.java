@@ -2,7 +2,7 @@ package com.rays.oop;
 
 public interface MakeInterface {
 
-	public static final String NANE = "Gautam";
+	public static final String NAME = "Gautam";
 
 	public static final int NUM = 1;
 

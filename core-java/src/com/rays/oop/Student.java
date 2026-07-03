@@ -1,14 +1,18 @@
 package com.rays.oop;
 
+import java.util.Date;
+
 public class Student {
 
 	private int id;
-	
+
 	private int rollNo;
 
 	private String firstName;
 
 	private String lastName;
+
+	private Date dob;
 
 	public Student() {
 	}
@@ -24,11 +28,11 @@ public class Student {
 	public int getRollNo() {
 		return rollNo;
 	}
-	
+
 	public void setRollNo(int rollNo) {
 		this.rollNo = rollNo;
 	}
-	
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -43,5 +47,13 @@ public class Student {
 
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	Date getDob() {
+		return dob;
+	}
+
+	void setDob(Date dob) {
+		this.dob = dob;
 	}
 }

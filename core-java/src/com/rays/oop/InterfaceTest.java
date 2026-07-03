@@ -14,6 +14,7 @@ public class InterfaceTest implements MakeInterface {
 		System.out.println(t.sum(10,20));
 		
 		MakeInterface.staticMethod();
+		System.out.println(MakeInterface.NAME);
 		
 		t.defaulfMethod();
 	}

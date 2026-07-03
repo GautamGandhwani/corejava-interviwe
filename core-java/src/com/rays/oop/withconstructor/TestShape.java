@@ -3,7 +3,7 @@ package com.rays.oop.withconstructor;
 public class TestShape {
 	public static void main(String[] args) {
 
-		Shape s[] = new Shape[3];
+		Shape[] s = new Shape[3];
 
 		s[0] = new Rectangle(3, 4);
 
