@@ -1,0 +1,21 @@
+package com.rays.exception;
+
+public class TestArithmeticException {
+
+	public static void main(String[] args) {
+
+		int a = 10;
+
+		try {
+			int c = a / 0;
+			System.out.println(c);
+		} catch (ArithmeticException e) {
+			System.out.println(e);
+//			e.printStackTrace();
+//			System.exit(0);
+		}
+//		finally {
+//			System.out.println("Gautam");
+//		}
+	}
+}

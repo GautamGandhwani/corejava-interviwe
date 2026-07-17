@@ -8,6 +8,7 @@ public class Account implements Cloneable{
 		this.balance = balance;
 	}
 	
+	@Override
 	protected Object clone() throws CloneNotSupportedException {
 		return super.clone();
 	}

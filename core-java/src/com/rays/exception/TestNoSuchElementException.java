@@ -1,0 +1,32 @@
+package com.rays.exception;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.NoSuchElementException;
+
+public class TestNoSuchElementException {
+
+	public static void main(String[] args) {
+		
+		List list = new ArrayList();
+		
+		list.add("a");
+		list.add("b");
+		
+		Iterator it = list.iterator();
+
+		while (it.hasNext()) {
+			it.next();
+		}
+
+		try {
+			System.out.println(it.next());
+		} catch (NoSuchElementException e) {
+			System.out.println(e);
+		}
+//		finally {
+//			System.out.println("Final");
+//		}
+	}
+}
