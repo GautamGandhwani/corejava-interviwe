@@ -26,12 +26,14 @@ public class TestList {
 //		list.clear();
 
 //		list.add(1, "hii");
-		System.out.println(list.subList(1, 4));
+//		System.out.println(list.subList(1, 4));
 		System.out.println(list);
 
-		System.out.println(list.get(2));
-		System.out.println(list.contains('a'));
+//		System.out.println(list.get(2));
+//		System.out.println(list.contains('a'));
 //		System.out.println(list.containsAll(l));
-		System.out.println(list.remove(1));
+//		System.out.println(list.remove(1));
+//		System.out.println(list.isEmpty());
+		System.out.println(list.);
 	}
 }
