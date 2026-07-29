@@ -14,7 +14,12 @@ public class TestQueue {
 		q.add(300);
 		
 		System.out.println(q.offer(300));
-		
+//		q.add(300);
+		System.out.println(q.element());
+		System.out.println(q);
+		System.out.println(q.peek());
+		System.out.println(q);
+		System.out.println(q.poll());
 		System.out.println(q);
 	}
 }

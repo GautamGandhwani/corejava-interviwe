@@ -13,8 +13,8 @@ public class TestArrayDeque {
 		q.offer(30);
 		q.offer(40);
 
-//		q.offerLast(20);
-//		q.offerFirst(30);
+		q.offerLast(20);
+		q.offerFirst(30);
 
 		System.out.println(q);
 

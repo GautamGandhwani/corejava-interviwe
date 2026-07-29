@@ -15,8 +15,7 @@ public class TestLinkedList {
 		
 		System.out.println(list);
 		
-		Iterator it = list.iterator();
-		
+//		Iterator it = list.iterator();
 //		while(it.hasNext()) {
 //			System.out.println(it.next());
 //		}
@@ -25,5 +24,8 @@ public class TestLinkedList {
 		System.out.println(list.get(1));
 		list.set(2,"Man");
 		System.out.println(list);
+		System.out.println(list.contains("Ram"));
+		System.out.println(list.element());
+		System.out.println(list.peek());
 	}
 }
