@@ -21,8 +21,6 @@ public class ContestentTest {
 				.collect(Collectors.collectingAndThen(Collectors.toList(), e -> {
 					Collections.shuffle(e);
 					return e.stream();
-				})).limit(1).forEach(e -> {
-					System.out.println(e.name + " " + e.phoneNo);
-				});
+				})).limit(1).forEach(System.out::println);
 	}
 }

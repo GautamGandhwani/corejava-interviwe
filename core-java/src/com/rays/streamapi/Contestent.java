@@ -9,4 +9,9 @@ public class Contestent {
 		this.name = name;
 		this.phoneNo = phoneNo;
 	}
+
+	@Override
+	public String toString() {
+		return name + " " + phoneNo;
+	}
 }
