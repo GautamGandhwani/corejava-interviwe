@@ -23,18 +23,15 @@ public class Employee implements Externalizable {
 	public void writeExternal(ObjectOutput out) throws IOException {
 		out.writeObject(name);
 		out.writeInt(id);
-
 	}
 
 	@Override
 	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 		name = (String) in.readObject();
 		id = in.readInt();
-		
 	}
 
 	public String toString() {
 		return "id: " + id + " name: " + name;
 	}
-
 }

@@ -11,14 +11,14 @@ public class TestAccountSD {
 		
 		Account a = new Account("001", 500.0);
 		
-		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream ("D:\\io\\Account.txt"));
+		ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream ("D:\\IO\\Account.txt"));
 		
 		// Convert Account class object into byte stream: serialization
 		out.writeObject(a);
 		
 		out.close();
 		
-		ObjectInputStream in = new ObjectInputStream(new FileInputStream("D:\\io\\Account.txt"));
+		ObjectInputStream in = new ObjectInputStream(new FileInputStream("D:\\IO\\Account.txt"));
 		
 		// Convert byte stream into Account class object: deserialization
 		System.out.println(in.readObject());

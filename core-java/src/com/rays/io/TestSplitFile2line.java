@@ -29,9 +29,7 @@ public class TestSplitFile2line {
 				line = br.readLine();
 			}
 			bw.close();
-
 			System.out.println("createFile" + fileNo);
-
 			fileNo++;
 		}
 		br.close();
